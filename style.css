@@ -1,0 +1,230 @@
+/* @font-face {
+    font-family: "Muller";
+    src: url("../fonts/MullerBold.woff2") format("woff2"),
+        url("../fonts/MullerBold.woff") format("woff");
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Muller";
+    src: url("../fonts/MullerMedium.woff2") format("woff2"),
+        url("../fonts/MullerMedium.woff") format("woff");
+    font-display: swap;
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Muller";
+    src: url("../fonts/MullerRegular.woff2") format("woff2"),
+        url("../fonts/MullerRegular.woff") format("woff");
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+} */
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+/* 
+body {
+    font-family: "Muller", sans-serif;
+    background-color: var(--white);
+} */
+
+h1,
+h2,
+h3,
+p,
+figure {
+    margin: 0;
+}
+
+button {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    background: linear-gradient(90deg, #ff9966, #ff5e62);
+    font-size: 20px;
+    font-family: "Roboto";
+}
+
+.wrapper {
+    height: 100vh;
+    position: realtive;
+}
+
+.fa.fa-database {
+    color: #fff;
+    font-size: 32px;
+    background: #333;
+    padding: 16px;
+    border-radius: 100%;
+    margin: 0 0 16px 0;
+}
+
+.card-content {
+    max-width: 480px;
+    background-color: #fff;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 16px;
+    padding: 64px 8px;
+    box-shadow: 1px 1px 32px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.card-content h1 {
+    text-transform: uppercase;
+    margin: 0 0 16px 0;
+}
+
+.card-content p {
+    font-size: 18px;
+    margin: 0 0 16px 0;
+}
+
+input {
+    padding: 12px 16px;
+    width: 40%;
+    border-radius: 80px;
+    outline: none;
+    border: 1px solid #d1d1d1;
+    font-size: 12px;
+}
+
+::placeholder {
+    color: #d1d1d1;
+}
+
+.subscribe-btn {
+    padding: 12px 32px;
+    border-radius: 80px;
+    background: linear-gradient(90deg, #ff9966, #ff5e62);
+    color: #fff;
+    font-size: 12px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+/*TABLE*/
+
+.container {
+    margin: 60px auto;
+    width: 75%;
+}
+
+.body-table {
+    background-color: #fff;
+}
+.text-search {
+    font-size: 24px;
+    color: #333;
+    font-family: "Roboto";
+    text-align: center;
+    margin: 30px;
+}
+
+.text-zapros {
+    font-size: 18px;
+    text-align: center;
+}
+
+.subscribe-btn__table {
+    font-size: 20px;
+    color: #333;
+    font-weight: 700;
+}
+
+.title-table {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Roboto";
+    color: #333;
+}
+
+table {
+    border-radius: 10px;
+    width: 75%;
+    margin: 0 auto;
+}
+th,
+td {
+    border-style: solid;
+    border-width: 0px 1px 1px 0px;
+    border-color: #d1d1d1;
+}
+th {
+    background-color: #ff9966;
+}
+
+td {
+    padding: 10px 20px;
+    background-color: #d1d1d1;
+}
+
+th:first-child {
+    border-top-left-radius: 10px;
+    border-width: 1px 1px 1px 1px;
+}
+th:last-child {
+    border-top-right-radius: 10px;
+    border-width: 1px 1px 1px 0px;
+}
+
+tr:last-child td:first-child {
+    border-radius: 0 0 0 10px;
+}
+tr:last-child td:last-child {
+    border-radius: 0 0 10px 0;
+}
+tr td:last-child {
+    border-width: 0px 1px 1px 0px;
+}
+
+tr td:first-child {
+    border-width: 0px 1px 1px 1px;
+}
+
+@media (max-width: 400px) {
+    .subscribe-btn__table {
+        font-size: 12px;
+        color: #333;
+        font-weight: 700;
+    }
+}

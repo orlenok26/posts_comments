@@ -1,0 +1,7 @@
+CREATE DATABASE `blog`;
+
+CREATE TABLE `blog`.`posts` ( `userId` INT NOT NULL , `id` INT NOT NULL , `title` VARCHAR(1000) NOT NULL , `body` VARCHAR(1000) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+CREATE TABLE `blog`.`comments` ( `postId` INT(11) NOT NULL , `id` INT NOT NULL , `name` VARCHAR(128) NOT NULL , `email` VARCHAR(128) NOT NULL , `body` VARCHAR(1000) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+CREATE TABLE `blog`.`post_comment` ( `title` VARCHAR(255) NOT NULL , `body` VARCHAR(10000) NOT NULL ) ENGINE = InnoDB;
