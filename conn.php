@@ -4,4 +4,4 @@ $servername = "localhost"; //имя сервера
 $database = "blog"; //имя БД
 $username = "root"; //Пользователь
 $password = ""; //пароль
-$conn = mysqli_connect($servername, $username, $password, $database);
+$conn = mysqli_connect($servername, $username, $password, $database); //подключение к БД
